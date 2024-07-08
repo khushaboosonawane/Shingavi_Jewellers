@@ -2461,16 +2461,16 @@ select{
     border-color:var(--primary-color)
 }
 .main__header{
-    padding:0.5rem 0
+    padding:1.5rem 0
 }
 @media only screen and (min-width:768px){
     .main__header{
-        padding:0.5rem 0
+        padding:1.5rem 0
     }
 }
 @media only screen and (min-width:992px){
     .main__header{
-        padding:0.5rem 0
+        padding:1.5rem 0
     }
 }
 .main__logo--img{

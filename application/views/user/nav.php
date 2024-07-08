@@ -151,7 +151,7 @@
                            </a>
                         </li>
                         <li class="header__account--items d-none d-lg-block">
-                           <a class="header__account--btn" href="wishlist.html">
+                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/wishlist">
                               <svg  xmlns="http://www.w3.org/2000/svg" width="28.51" height="23.443" viewBox="0 0 512 512">
                                  <path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
                               </svg>
@@ -184,6 +184,44 @@
                                  Home
                               </a>
                            </li>
+                           <li class="header__menu--items mega__menu--items">
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/silver">
+                                 Silver 
+                                 <svg class="menu__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                    <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
+                                 </svg>
+                              </a>
+                              <ul class="header__mega--menu d-flex justify-content-around" style="width:50%;margin-left:200px">
+                                 <li class="header__mega--menu__li">
+                                    <ul class="header__mega--sub__menu">
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Fingure Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bracelete</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Challa</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Pendent</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Silver Utensels</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Pooja Saman</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Payla</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Murti</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Sliver Ear Ring</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="header__mega--menu__li">
+                                    <ul class="header__mega--sub__menu">
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Chain</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bichhiya</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Necklace</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Rakhi</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Krishna Janmashtami</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Cufflinks</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">showpiece</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Wathces</a></li>
+                                       
+                                    </ul>
+                                 </li>
+                                
+                                 
+                              </ul>
+                           </li>
                            <li class="header__menu--items mega__menu--items style2">
                               <a class="header__menu--link" href="<?= base_url() ?>usercontroller/gold">
                                  Gold
@@ -191,11 +229,11 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex">
-                                 <li class="header__mega--menu__li" >
-                                    <ul class="header__mega--sub__menu" style="width:20%">
+                              <ul class="header__mega--menu d-flex" style="width:15%;margin-left:437px">
+                                 <li class="header__mega--menu__li" style="width:100%">
+                                    <ul class="header__mega--sub__menu" style="width:100%">
                                        <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="shop.html">Bangales</a>
+                                          <a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/bangales">Bangales</a>
                                        </li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Chain</a></li>
@@ -206,44 +244,7 @@
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Coin</a></li>
                                     </ul>
                                  </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1677829230-40521.jpg" style="height:100px;width:100px;object-fot:cover" alt="">
-                                          </a>
-                                       </li>
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634549947-10758.jpg"style="height:100px;width:100px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1677829804-23403.jpg" style="height:100px;width:100px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634725853-20664.jpg" style="height:100px;width:100px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="compare.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1673939555-36065.jpg" style="height:50vh;width:100%;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                       
-                                    </ul>
-                                 </li>
+                                
                               </ul>
                            </li>
                            <li class="header__menu--items style2">
@@ -251,6 +252,29 @@
                            </li>
                            <li class="header__menu--items style2">
                               <a class="header__menu--link" href="https://play.google.com/store/apps/details?id=com.instalaxmi.shingavi&pli=1">E-Gold</a>  
+                           </li>
+                           <li class="header__menu--items mega__menu--items">
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/">
+                                 Offer's
+                                 <svg class="menu__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                    <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
+                                 </svg>
+                              </a>
+                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:715px">
+                                 <li class="header__mega--menu__li" style="width:100%">
+                                    <ul class="header__mega--sub__menu">
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/payal_jodwe_mohotsav">Payal & Jodwe Mohotsav</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Das Ka Dhamaka</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Introductor Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Silver Jubilee Discount</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Peral Discount</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Ruby Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Golden Dhamaka Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Platinum Discount</a></li>
+                                    </ul>
+                                 </li>
+                                 
+                              </ul>
                            </li>
                          
                         </ul>
@@ -277,7 +301,7 @@
                            </a>
                         </li>
                         <li class="header__account--items header__account2--items d-none d-lg-block">
-                           <a class="header__account--btn" href="wishlist.html">
+                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/wishlist">
                               <svg  xmlns="http://www.w3.org/2000/svg" width="28.51" height="23.443" viewBox="0 0 512 512">
                                  <path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
                               </svg>
@@ -322,10 +346,10 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex">
-                                 <li class="header__mega--menu__li">
+                              <ul class="header__mega--menu d-flex" style="width:195px">
+                                 <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Bangales</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/bangales">Bangales</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Chain</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Chain Pendent</a></li>
@@ -335,44 +359,7 @@
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Coin</a></li>
                                     </ul>
                                  </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1677829230-40521.jpg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1677829804-23403.jpg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634549947-10758.jpg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634725853-20664.jpg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="my-account.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1673939555-36065.jpg" style="height:50vh;width:100%;object-fit:cover" alt="">
-                                          </a>
-                                          </li>
-                                       
-                                    </ul>
-                                 </li>
+                                
                               
                               </ul>
                            </li>
@@ -383,7 +370,7 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex justify-content-around">
+                              <ul class="header__mega--menu d-flex justify-content-around" style="width:50%">
                                  <li class="header__mega--menu__li">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Fingure Ring</a></li>
@@ -397,7 +384,7 @@
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Sliver Ear Ring</a></li>
                                     </ul>
                                  </li>
-                                 <li class="header__mega--menu__li">
+                                 <li class="header__mega--menu__li" style="">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Chain</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bichhiya</a></li>
@@ -410,30 +397,7 @@
                                        
                                     </ul>
                                  </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1617952316-19212.jpeg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634802427-58276.jpg" style="height:150px;width:150px;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="header__mega--menu__li">
-                                    <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li">
-                                          <a class="header__mega--sub__menu--title" href="product-details.html">
-                                             <img src="https://www.shingavijewellers.com//uploads/product-1634802020-22532.jpg" style="height:50vh;width:100%;object-fit:cover" alt="">
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 
+                           
                               </ul>
                            </li>
                            
@@ -452,7 +416,7 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                         <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:413px">
+                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:413px">
                                  <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/payal_jodwe_mohotsav">Payal & Jodwe Mohotsav</a></li>
@@ -508,7 +472,7 @@
                         <a class="offcanvas__menu_item" href="<?= base_url() ?>usercontroller/gold">Gold</a>
                         <ul class="offcanvas__sub_menu">
                            <li class="offcanvas__sub_menu_li">
-                              <a href="#" class="offcanvas__sub_menu_item">Bangales</a>
+                              <a href="<?= base_url() ?>usercontroller/bangales" class="offcanvas__sub_menu_item">Bangales</a>
                            </li>
                            <li class="offcanvas__sub_menu_li">
                               <a href="#" class="offcanvas__sub_menu_item">Fingure Rings</a>
@@ -655,7 +619,7 @@
                   </a>
                </li>
                <li class="offcanvas__stikcy--toolbar__list">
-                  <a class="offcanvas__stikcy--toolbar__btn" href="wishlist.html">
+                  <a class="offcanvas__stikcy--toolbar__btn" href="<?= base_url() ?>usercontroller/wishlist">
                      <span class="offcanvas__stikcy--toolbar__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18.541" height="15.557" viewBox="0 0 18.541 15.557">
                            <path  d="M71.775,135.51a5.153,5.153,0,0,1,1.267-1.524,4.986,4.986,0,0,1,6.584.358,4.728,4.728,0,0,1,1.174,4.914,10.458,10.458,0,0,1-2.132,3.808,22.591,22.591,0,0,1-5.4,4.558c-.445.282-.9.549-1.356.812a.306.306,0,0,1-.254.013,25.491,25.491,0,0,1-6.279-4.8,11.648,11.648,0,0,1-2.52-4.009,4.957,4.957,0,0,1,.028-3.787,4.629,4.629,0,0,1,3.744-2.863,4.782,4.782,0,0,1,5.086,2.447c.013.019.025.034.057.076Z" transform="translate(-62.498 -132.915)" fill="currentColor"/>
@@ -679,19 +643,18 @@
                      </svg>
                   </button>
                </div>
-               <p class="minicart__header--desc">Clothing and fashion products are limited</p>
+               <!-- <p class="minicart__header--desc">Clo</p> -->
             </div>
             <div class="minicart__product">
                <div class="minicart__product--items d-flex">
                   <div class="minicart__thumb">
-                     <a href="product-details.html"><img src="<?= base_url() ?>public/user_assets/assets/img/product/product1.png" alt="prduct-img"></a>
+                     <a href="product-details.html"><img src="https://miro.medium.com/v2/resize:fit:600/1*ZjZJkwW6BE-5lxk_U-NTpA.jpeg" alt="prduct-img"></a>
                   </div>
                   <div class="minicart__text">
-                     <h3 class="minicart__subtitle h4"><a href="product-details.html">Oversize Cotton Dress</a></h3>
-                     <span class="color__variant"><b>Color:</b> Beige</span>
+                     <h3 class="minicart__subtitle h4"><a href="product-details.html">Earings</a></h3>
+                     <span class="color__variant"><b>Category:</b> Gold</span>
                      <div class="minicart__price">
-                        <span class="current__price">$125.00</span>
-                        <span class="old__price">$140.00</span>
+                        <span class="current__price">&#8377; 56,000</span>
                      </div>
                      <div class="minicart__text--footer d-flex align-items-center">
                         <div class="quantity__box minicart__quantity">
@@ -705,38 +668,15 @@
                      </div>
                   </div>
                </div>
-               <div class="minicart__product--items d-flex">
-                  <div class="minicart__thumb">
-                     <a href="product-details.html"><img src="<?= base_url() ?>public/user_assets/assets/img/product/product2.png" alt="prduct-img"></a>
-                  </div>
-                  <div class="minicart__text">
-                     <h3 class="minicart__subtitle h4"><a href="product-details.html">Boxy Denim Jacket</a></h3>
-                     <span class="color__variant"><b>Color:</b> Green</span>
-                     <div class="minicart__price">
-                        <span class="current__price">$115.00</span>
-                        <span class="old__price">$130.00</span>
-                     </div>
-                     <div class="minicart__text--footer d-flex align-items-center">
-                        <div class="quantity__box minicart__quantity">
-                           <button type="button" class="quantity__value decrease" aria-label="quantity value" value="Decrease Value">-</button>
-                           <label>
-                           <input type="number" class="quantity__number" value="1" data-counter />
-                           </label>
-                           <button type="button" class="quantity__value increase" aria-label="quantity value" value="Increase Value">+</button>
-                        </div>
-                        <button class="minicart__product--remove">Remove</button>
-                     </div>
-                  </div>
-               </div>
             </div>
             <div class="minicart__amount">
                <div class="minicart__amount_list d-flex justify-content-between">
                   <span>Sub Total:</span>
-                  <span><b>$240.00</b></span>
+                  <span><b>&#8377; 56,000</b></span>
                </div>
                <div class="minicart__amount_list d-flex justify-content-between">
                   <span>Total:</span>
-                  <span><b>$240.00</b></span>
+                  <span><b>&#8377; 56,000</b></span>
                </div>
             </div>
             <div class="minicart__conditions text-center">

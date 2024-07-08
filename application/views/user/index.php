@@ -65,7 +65,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                           &#8377; 3,40,667
                                     </span>
                                     <h3 class="blog__content--title"><a href="blog-details.html">Hiral Short Neckales</a></h3>
-                                    <a class="blog__content--btn primary__btn" href="blog-details.html">Read more <i class="ri-arrow-right-line"></i></a>
+                                    <a class="blog__content--btn primary__btn" href="<?= base_url() ?>usercontroller/view_gold_details">Read more <i class="ri-arrow-right-line"></i></a>
                                 </div>
                             </div>
                         </div>

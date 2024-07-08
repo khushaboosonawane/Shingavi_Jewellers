@@ -192,7 +192,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                         <div class="price__filter--group">
                                             <label class="price__filter--label" for="Filter-Price-GTE2">From</label>
                                             <div class="price__filter--input border-radius-5 d-flex align-items-center">
-                                                <span class="price__filter--currency">$</span>
+                                                <span class="price__filter--currency">&#8377;</span>
                                                 <label>
                                                     <input class="price__filter--input__field border-0" name="filter.v.price.gte" type="number" placeholder="0" min="0" max="250.00">
                                                 </label>
@@ -204,7 +204,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                         <div class="price__filter--group">
                                             <label class="price__filter--label" for="Filter-Price-LTE2">To</label>
                                             <div class="price__filter--input border-radius-5 d-flex align-items-center">
-                                                <span class="price__filter--currency">$</span>
+                                                <span class="price__filter--currency">&#8377;</span>
                                                 <label>
                                                     <input class="price__filter--input__field border-0" name="filter.v.price.lte" type="number" min="0" placeholder="250.00" max="250.00"> 
                                                 </label>
@@ -289,7 +289,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -374,7 +374,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -459,7 +459,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -544,7 +544,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -629,7 +629,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -714,7 +714,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -799,7 +799,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -884,7 +884,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -969,7 +969,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1054,7 +1054,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1139,7 +1139,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1224,7 +1224,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1309,7 +1309,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1394,7 +1394,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1479,7 +1479,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">
@@ -1564,7 +1564,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                                                         </g>
                                                                         </g>
                                                                     </svg>
-                                                                    <span class="add__to--cart__text"> + Add to cart</span>
+                                                                    <span class="add__to--cart__text" style="position:relative;top:-41px;left:25px"> + Add to cart</span>
                                                                 </a>
                                                             </li>
                                                             <li class="product__items--action__list">

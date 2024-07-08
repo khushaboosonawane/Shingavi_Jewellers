@@ -10,7 +10,7 @@ class Usercontroller extends CI_Controller{
     }
     public function ov(string $filename="",$data=null){
         $this->nav();
-        $this->load->view($filename,$data);
+        $this->load->view("user/".$filename,$data);
         $this->footer();
     }
     public function index(){
@@ -24,33 +24,31 @@ class Usercontroller extends CI_Controller{
         $this->footer();
     }
     public function bangales(){
-        $this->nav();
-        $this->load->view("user/bangales");
-        $this->footer();
+        $this->ov("bangales");
     }
     public function silver(){
-        $this->nav();
-        $this->load->view("user/silver");
-        $this->footer();
+       $this->ov("silver");
     }
     public function about(){
-        $this->nav();
-        $this->load->view("user/about");
-        $this->footer();
+        $this->ov("about");
     }
     public function store(){
-        $this->nav();
-        $this->load->view("user/store");
-        $this->footer();
+        $this->ov("store");
     }
     public function payal_jodwe_mohotsav(){
-        $this->ov("user/payal_jodwe_mohotsav");
+        $this->ov("payal_jodwe_mohotsav");
     }
     public function gift(){
-        $this->ov("user/gift");
+        $this->ov("gift");
     }
     public function view_gold_details(){
-        $This->ov("user/view_gold_details");
+        $this->ov("view_gold_details");
+    }
+    public function wishlist(){
+        $this->ov("wishlist");
+    }
+    public function add_cart(){
+        $this->ov("add_cart");
     }
     
 }
