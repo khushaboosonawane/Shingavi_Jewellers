@@ -117,6 +117,11 @@ var swiper = new Swiper(".hero__slider--activation", {
     loop: !0,
     clickable: !0,
     spaceBetween: 30,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     breakpoints: {
       1200: {
         slidesPerView: 4
@@ -146,6 +151,11 @@ var swiper = new Swiper(".hero__slider--activation", {
     loop: !0,
     clickable: !0,
     spaceBetween: 30,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     breakpoints: {
       1200: {
         slidesPerView: 4
@@ -175,6 +185,11 @@ var swiper = new Swiper(".hero__slider--activation", {
     clickable: !0,
     loop: !0,
     spaceBetween: 30,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     breakpoints: {
       1200: {
         slidesPerView: 3
@@ -246,6 +261,11 @@ var swiper = new Swiper(".hero__slider--activation", {
     loop: !0,
     clickable: !0,
     spaceBetween: 30,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     breakpoints: {
       1200: {
         slidesPerView: 4
@@ -275,6 +295,11 @@ var swiper = new Swiper(".hero__slider--activation", {
     loop: !0,
     clickable: !0,
     spaceBetween: 30,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
@@ -287,6 +312,11 @@ var swiper = new Swiper(".hero__slider--activation", {
   swiper = new Swiper(".product__media--nav", {
     loop: !0,
     spaceBetween: 10,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     slidesPerView: 5,
     freeMode: !0,
     watchSlidesProgress: !0,
@@ -315,6 +345,11 @@ var swiper = new Swiper(".hero__slider--activation", {
   swiper2 = new Swiper(".product__media--preview", {
     loop: !0,
     spaceBetween: 10,
+    speed: 800,
+    autoplay: {
+      delay: 3e3,
+      disableOnInteraction: !1
+    },
     thumbs: {
       swiper: swiper
     }

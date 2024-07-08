@@ -8,6 +8,11 @@ class Usercontroller extends CI_Controller{
     private function footer(){
         $this->load->view("user/footer");
     }
+    public function ov(string $filename="",$data=null){
+        $this->nav();
+        $this->load->view($filename,$data);
+        $this->footer();
+    }
     public function index(){
         $this->nav();
         $this->load->view("user/index");
@@ -33,5 +38,20 @@ class Usercontroller extends CI_Controller{
         $this->load->view("user/about");
         $this->footer();
     }
+    public function store(){
+        $this->nav();
+        $this->load->view("user/store");
+        $this->footer();
+    }
+    public function payal_jodwe_mohotsav(){
+        $this->ov("user/payal_jodwe_mohotsav");
+    }
+    public function gift(){
+        $this->ov("user/gift");
+    }
+    public function view_gold_details(){
+        $This->ov("user/view_gold_details");
+    }
+    
 }
 ?>

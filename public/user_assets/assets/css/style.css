@@ -6693,7 +6693,7 @@ input.quickview__value--number{
 }
 @media only screen and (max-width:480px){
     .brand__logo--items__thumbnail--img{
-        max-width:11rem
+        max-width:20rem;
     }
 }
 .brand__logo--items__thumbnail--img:hover{

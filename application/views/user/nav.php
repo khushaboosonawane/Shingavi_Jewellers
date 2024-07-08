@@ -446,24 +446,23 @@
                               <a class="header__menu--link" href="https://play.google.com/store/apps/details?id=com.instalaxmi.shingavi&pli=1">E-Gold</a>  
                            </li>
                            <li class="header__menu--items mega__menu--items">
-                              <a class="header__menu--link" href="shop.html">
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/">
                                  Offer's
                                  <svg class="menu__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:413px">
-                                 <li class="header__mega--menu__li" >
+                         <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:413px">
+                                 <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Fingure Ring</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bracelete</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Challa</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Pendent</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Silver Utensels</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Pooja Saman</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Payla</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Murti</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Sliver Ear Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/payal_jodwe_mohotsav">Payal & Jodwe Mohotsav</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Das Ka Dhamaka</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Introductor Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Silver Jubilee Discount</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Peral Discount</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Ruby Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Golden Dhamaka Offer</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Platinum Discount</a></li>
                                     </ul>
                                  </li>
                                  
@@ -471,24 +470,22 @@
                            </li>
                            <li class="header__menu--items d-none d-xl-block">
                               <i class="ri-store-2-line" style="font-size:20px"></i>
-                              <a class="header__menu--link" href="shop.html">Store</a>  
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/store">Store</a>  
                            </li>
                            <li class="header__menu--items">
-                              <a class="header__menu--link" href="#">
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/gift">
                                  <i class="ri-gift-line" style="font-size:20px"></i>
                                  Gifts 
                               </a>
                            </li>
-                           <li class="header__menu--items">
-                              <a class="header__menu--link" href="contact.html">Contact </a>  
-                           </li>
+                           
                         </ul>
                      </nav>
                   </div>
                   <p class="header__discount--text">
                      <!-- <img class="header__discount--icon__img" src="<?= base_url() ?>public/user_assets/assets/img/icon/lamp.png" alt="lamp-img">  -->
                      <i class="ri-lightbulb-fill " style="font-size:25px;color:#b32726"></i>
-                     Special up to 60% Off all item
+                     Diwali Special Offers
                   </p>
                </div>
             </div>
