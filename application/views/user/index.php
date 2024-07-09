@@ -10,20 +10,20 @@ defined("BASEPATH") or exit("no direct script access allowed");
                <div class="hero__slider--wrapper swiper-wrapper">
                   <div class="swiper-slide ">
                      <!-- <div class="hero__slider--items home1__slider--bg" style='background:url("<?= base_url() ?>public/user_assets/assets/img/slider/home1-slider1.png")'> -->
-                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://www.calcuttayellowpages.com/cimage35/112147slider02.jpg");height:80vh;width:100%;object-fit:cover;background-repeat:no-repeat;background-size:cover;background-position:center center'>
+                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://www.calcuttayellowpages.com/cimage35/112147slider02.jpg");height:84vh;width:100%;object-fit:cover;background-repeat:no-repeat;background-size:cover;background-position:center center'>
                         <!-- background:url("<?= base_url() ?>public/user_assets/assets/img/slider/home1-slider1.png") -->
                      
                      </div>
                   </div>
                   <div class="swiper-slide ">
                      <!-- <div class="hero__slider--items home1__slider--bg two" style="background:url('https://www.shingavijewellers.com/uploads/banner-1717050263-28262.jpg')"> -->
-                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://cloudfront.slrlounge.com/wp-content/uploads/2023/01/jewelry-photography-wedding-ring-feature-1200x675.jpg");height:80vh;width:100%;object-fit:cover;background-position:center center;background-repeat:no-repeat;background-size:cover'>
+                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://cloudfront.slrlounge.com/wp-content/uploads/2023/01/jewelry-photography-wedding-ring-feature-1200x675.jpg");height:84vh;width:100%;object-fit:cover;background-position:center center;background-repeat:no-repeat;background-size:cover'>
                       
                      </div>
                   </div>
                   <div class="swiper-slide ">
                      <!-- <div class="hero__slider--items home1__slider--bg three"> -->
-                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://thumbs.dreamstime.com/b/two-gold-bangles-floral-design-blue-fabric-image-showcases-detailed-321288096.jpg");height:80vh;width:100%;object-fit:cover;background-repeat:no-repeat;background-size:cover;background-position:center center'>
+                     <div class="hero__slider--items home1__slider--bg" style='background:url("https://thumbs.dreamstime.com/b/two-gold-bangles-floral-design-blue-fabric-image-showcases-detailed-321288096.jpg");height:84vh;width:100%;object-fit:cover;background-repeat:no-repeat;background-size:cover;background-position:center center'>
                        
                      </div>
                   </div>

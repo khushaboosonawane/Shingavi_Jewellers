@@ -2725,8 +2725,8 @@ defined("BASEPATH") or exit("no direct script access allowed");
         <!-- End shipping section -->
 
          <!-- Quickview Wrapper -->
-      <div class="modal" id="modal1" data-animation="slideInUp">
-         <div class="modal-dialog quickview__main--wrapper">
+      <div class="modal" id="modal1" data-animation="slideInUp" data-bs-backdrop="static">
+         <div class="modal-dialog quickview__main--wrapper modal-xl">
             <header class="modal-header quickview__header">
                <button class="close-modal quickview__close--btn" aria-label="close modal" data-close>✕ </button>
             </header>
@@ -2739,7 +2739,7 @@ defined("BASEPATH") or exit("no direct script access allowed");
                               <div class="swiper-slide">
                                  <div class="product__media--preview__items">
                                     <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg">
-                                        <img class="product__media--preview__items--img" src="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg" alt="product-media-img">
+                                        <img class="product__media--preview__items--img" src="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg" alt="product-media-img" style="height:50vh;width:100%;object-fit:cover">
                                     </a>
                                     <div class="product__media--view__icon">
                                        <a class="product__media--view__icon--link glightbox" href="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg" data-gallery="product-media-preview">
@@ -2753,7 +2753,8 @@ defined("BASEPATH") or exit("no direct script access allowed");
                               </div>
                               <div class="swiper-slide">
                                  <div class="product__media--preview__items">
-                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png"><img class="product__media--preview__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" alt="product-media-img"></a>
+                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png">
+                                        <img class="product__media--preview__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" alt="product-media-img" style="height:50vh;width:100%;object-fit:cover"></a>
                                     <div class="product__media--view__icon">
                                        <a class="product__media--view__icon--link glightbox" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" data-gallery="product-media-preview">
                                           <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512">
@@ -2766,7 +2767,8 @@ defined("BASEPATH") or exit("no direct script access allowed");
                               </div>
                               <div class="swiper-slide">
                                  <div class="product__media--preview__items">
-                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg"><img class="product__media--preview__items--img" src="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg" alt="product-media-img"></a>
+                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg">
+                                        <img class="product__media--preview__items--img" src="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg" alt="product-media-img" style="height:50vh;width:100%;object-fit:cover"></a>
                                     <div class="product__media--view__icon">
                                        <a class="product__media--view__icon--link glightbox" href="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg" data-gallery="product-media-preview">
                                           <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512">
@@ -2779,7 +2781,8 @@ defined("BASEPATH") or exit("no direct script access allowed");
                               </div>
                               <div class="swiper-slide">
                                  <div class="product__media--preview__items">
-                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png"><img class="product__media--preview__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" alt="product-media-img"></a>
+                                    <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png">
+                                        <img class="product__media--preview__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" style="height:50vh;width:100%;object-fit:cover" alt="product-media-img"></a>
                                     <div class="product__media--view__icon">
                                        <a class="product__media--view__icon--link glightbox" href="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" data-gallery="product-media-preview">
                                           <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512">
@@ -2797,17 +2800,17 @@ defined("BASEPATH") or exit("no direct script access allowed");
                            <div class="swiper-wrapper">
                               <div class="swiper-slide">
                                  <div class="product__media--nav__items">
-                                    <img class="product__media--nav__items--img" src="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg" alt="product-nav-img">
+                                    <img class="product__media--nav__items--img" src="https://www.southjewellery.com/wp-content/uploads/2014/01/grand-diamond-necklace.jpg" style="height:10vh;width:100%;object-fit:cover" alt="product-nav-img">
                                  </div>
                               </div>
                               <div class="swiper-slide">
                                  <div class="product__media--nav__items">
-                                    <img class="product__media--nav__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" alt="product-nav-img">
+                                    <img class="product__media--nav__items--img" src="https://5.imimg.com/data5/GB/RG/MY-47311766/diamond-necklace-set-500x500.png" style="height:10vh;width:100%;object-fit:cover" alt="product-nav-img">
                                  </div>
                               </div>
                               <div class="swiper-slide">
                                  <div class="product__media--nav__items">
-                                    <img class="product__media--nav__items--img" src="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg" alt="product-nav-img">
+                                    <img class="product__media--nav__items--img" src="https://i.pinimg.com/originals/fb/4a/5b/fb4a5ba4c0871f68ec248480407152fe.jpg" style="height:10vh;width:100%;object-fit:cover" alt="product-nav-img">
                                  </div>
                               </div>
                              

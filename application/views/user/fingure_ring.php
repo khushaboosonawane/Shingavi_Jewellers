@@ -5,14 +5,14 @@ defined("BASEPATH") or exit("no direct script access is allowed");
 <main class="main__content_wrapper">
         
         <!-- Start breadcrumb section -->
-        <section class="breadcrumb__section breadcrumb__bg" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://i.pinimg.com/474x/da/5e/3f/da5e3f4b42c0312e1d3a3bd9e8338277.jpg');height:45rem;background-size:cover;background-repeat:no-repeat;background-position:center center">
+        <section class="breadcrumb__section breadcrumb__bg" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://media.istockphoto.com/id/1385921358/photo/the-wedding-diamond-ring-is-placed-on-a-pink-gold-cloth.jpg?s=612x612&w=0&k=20&c=KXoOrK6wv2VIbUyqqZIk6jdZHIsc-w_N39CloR4TdLk=');height:45rem;background-size:cover;background-repeat:no-repeat;background-position:center center">
             <div class="container">
                 <div class="row row-cols-1">
                     <div class="col">
                         <div class="breadcrumb__content text-center">
-                            <h1 class="breadcrumb__content--title text-white mb-25">Bangales</h1>
+                            <h1 class="breadcrumb__content--title text-white mb-25">Fingure Ring</h1>
                             <ul class="breadcrumb__content--menu d-flex justify-content-center">
-                                <li class="breadcrumb__content--menu__items"><a class="text-white" href="<?= base_url() ?>usercontroller/">Bangales</a></li>
+                                <li class="breadcrumb__content--menu__items"><a class="text-white" href="<?= base_url() ?>usercontroller/">Fingure Ring</a></li>
                                 <li class="breadcrumb__content--menu__items"><span class="text-white">Bangales</span></li>
                             </ul>
                         </div>
@@ -37,15 +37,15 @@ defined("BASEPATH") or exit("no direct script access is allowed");
                                     <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="<?= base_url() ?>usercontroller/view_gold_details">
-                                                <img class="product__items--img product__primary--img" src="https://i.pinimg.com/736x/ef/f6/ae/eff6aea3effc9e9e42db83aa687a1971.jpg" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="https://i.pinimg.com/736x/ef/f6/ae/eff6aea3effc9e9e42db83aa687a1971.jpg" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="https://kinclimg3.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BIDG0319R180_YAA18DIG6XXXXXXXX_ABCD00-PICS-00001-1024-66194.png" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="https://kinclimg3.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BIDG0319R180_YAA18DIG6XXXXXXXX_ABCD00-PICS-00001-1024-66194.png" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
                                             </div>
                                         </div>
                                         <div class="product__items--content">
-                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Bangales</a></h3>
+                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Fingure Ring</a></h3>
                                             <div class="product__items--price">
                                                 <span class="current__price">&#8377; 1500</span>
                                             </div>
@@ -123,15 +123,15 @@ defined("BASEPATH") or exit("no direct script access is allowed");
                                     <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="<?= base_url() ?>usercontroller/view_gold_details">
-                                                <img class="product__items--img product__primary--img" src="https://i.pinimg.com/474x/da/5e/3f/da5e3f4b42c0312e1d3a3bd9e8338277.jpg" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="https://i.pinimg.com/474x/da/5e/3f/da5e3f4b42c0312e1d3a3bd9e8338277.jpg" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
                                             </div>
                                         </div>
                                         <div class="product__items--content">
-                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Bangales</a></h3>
+                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Fingure Ring</a></h3>
                                             <div class="product__items--price">
                                                 <span class="current__price">&#8377; 1500</span>
                                             </div>
@@ -209,15 +209,15 @@ defined("BASEPATH") or exit("no direct script access is allowed");
                                     <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="<?= base_url() ?>usercontroller/view_gold_details">
-                                                <img class="product__items--img product__primary--img" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13403918/2021/2/12/8ef7233f-07d1-4792-89b7-8e1290c82ef01613143774160-Rubans-Set-Of-2-24K-Gold-Plated--Red-Stone-Studded-Handcraft-5.jpg" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13403918/2021/2/12/8ef7233f-07d1-4792-89b7-8e1290c82ef01613143774160-Rubans-Set-Of-2-24K-Gold-Plated--Red-Stone-Studded-Handcraft-5.jpg" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/ring/p/d/f/adjustable-1-princess-crown-ring-miss-india-world-fancy-party-original-imagnqquyksvqphs.jpeg?q=90&crop=false" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/ring/p/d/f/adjustable-1-princess-crown-ring-miss-india-world-fancy-party-original-imagnqquyksvqphs.jpeg?q=90&crop=false" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
                                             </div>
                                         </div>
                                         <div class="product__items--content">
-                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Bangales</a></h3>
+                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Fingure Ring</a></h3>
                                             <div class="product__items--price">
                                                 <span class="current__price">&#8377; 1500</span>
                                             </div>
@@ -295,15 +295,15 @@ defined("BASEPATH") or exit("no direct script access is allowed");
                                     <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="<?= base_url() ?>usercontroller/view_gold_details">
-                                                <img class="product__items--img product__primary--img" src="https://thumbs.dreamstime.com/b/set-designed-gold-bangles-8350637.jpg" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="https://thumbs.dreamstime.com/b/set-designed-gold-bangles-8350637.jpg" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="https://m.media-amazon.com/images/I/610fpbPGsaL._AC_UY1100_.jpg" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="https://m.media-amazon.com/images/I/610fpbPGsaL._AC_UY1100_.jpg" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
                                             </div>
                                         </div>
                                         <div class="product__items--content">
-                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Bangales</a></h3>
+                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Fingure Ring</a></h3>
                                             <div class="product__items--price">
                                                 <span class="current__price">&#8377; 1500</span>
                                             </div>
@@ -381,15 +381,15 @@ defined("BASEPATH") or exit("no direct script access is allowed");
                                     <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="<?= base_url() ?>usercontroller/view_gold_details">
-                                                <img class="product__items--img product__primary--img" src="https://media.istockphoto.com/id/1163145560/photo/fancy-designer-bracelets-jewelry-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=PcONJpu5bEmvcv5x1OCHV5BmgM9T-K_scye7C8zdH-c=" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="https://media.istockphoto.com/id/1163145560/photo/fancy-designer-bracelets-jewelry-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=PcONJpu5bEmvcv5x1OCHV5BmgM9T-K_scye7C8zdH-c=" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="https://i.ebayimg.com/images/g/UicAAOSwLaZZtrx2/s-l1600.jpg" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="https://i.ebayimg.com/images/g/UicAAOSwLaZZtrx2/s-l1600.jpg" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
                                             </div>
                                         </div>
                                         <div class="product__items--content">
-                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Bangales</a></h3>
+                                            <h3 class="product__items--content__title h4"><a href="product-details.html">Fingure Ring</a></h3>
                                             <div class="product__items--price">
                                                 <span class="current__price">&#8377; 1500</span>
                                             </div>

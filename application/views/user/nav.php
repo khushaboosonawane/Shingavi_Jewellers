@@ -111,71 +111,7 @@
                         <span class="visually-hidden">Menu Open</span>
                      </a>
                   </div>
-                  <div class="main__logo">
-                     <h1 class="main__logo--title">
-                        <a class="main__logo--link" href="index.html">
-                        <img class="main__logo--img" src="https://www.shingavijewellers.com/image/logoblack4.png" style="height:56px;width:54px;object-fit:cover" alt="logo-img">
-                        </a>
-                     </h1>
-                  </div>
-                  <div class="header__search--widget header__sticky--none d-none d-lg-block">
-                        <form class="d-flex header__search--form" action="#" style="">
-                            <div class="header__select--categories select">
-                                <select class="header__select--inner">
-                                    <option selected value="1">All Categories</option>
-                                    <option value="2">Accessories</option>
-                                    <option value="3">Accessories & More</option>
-                                    <option value="4">Camera & Video </option>
-                                    <option value="5">Butters & Eggs </option>
-                                </select>
-                            </div>
-                            <div class="header__search--box">
-                                <label>
-                                    <input class="header__search--input" placeholder="Keyword here..." type="text">
-                                </label>
-                                <button class="header__search--button bg__secondary text-white" type="submit" aria-label="search button" style="margin-top:0px;margin-right:0px">
-                                    <svg class="header__search--button__svg" xmlns="http://www.w3.org/2000/svg" width="27.51" height="26.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
-                                </button>
-                            </div>
-                        </form>
-                  </div>
-                  <div class="header__account header__sticky--none">
-                     <ul class="d-flex">
-                        <li class="header__account--items">
-                           <a class="header__account--btn" href="my-account.html">
-                              <svg xmlns="http://www.w3.org/2000/svg"  width="26.51" height="23.443" viewBox="0 0 512 512">
-                                 <path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
-                                 <path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
-                              </svg>
-                              <span class="header__account--btn__text">My Account</span>
-                           </a>
-                        </li>
-                        <li class="header__account--items d-none d-lg-block">
-                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/wishlist">
-                              <svg  xmlns="http://www.w3.org/2000/svg" width="28.51" height="23.443" viewBox="0 0 512 512">
-                                 <path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
-                              </svg>
-                              <span class="header__account--btn__text"> Wish List</span>
-                              <span class="items__count wishlist">02</span> 
-                           </a>
-                        </li>
-                        <li class="header__account--items">
-                           <a class="header__account--btn minicart__open--btn" href="javascript:void(0)" data-offcanvas>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="26.51" height="23.443" viewBox="0 0 14.706 13.534">
-                                 <g  transform="translate(0 0)">
-                                    <g >
-                                       <path  data-name="Path 16787" d="M4.738,472.271h7.814a.434.434,0,0,0,.414-.328l1.723-6.316a.466.466,0,0,0-.071-.4.424.424,0,0,0-.344-.179H3.745L3.437,463.6a.435.435,0,0,0-.421-.353H.431a.451.451,0,0,0,0,.9h2.24c.054.257,1.474,6.946,1.555,7.33a1.36,1.36,0,0,0-.779,1.242,1.326,1.326,0,0,0,1.293,1.354h7.812a.452.452,0,0,0,0-.9H4.74a.451.451,0,0,1,0-.9Zm8.966-6.317-1.477,5.414H5.085l-1.149-5.414Z" transform="translate(0 -463.248)" fill="currentColor"/>
-                                       <path  data-name="Path 16788" d="M5.5,478.8a1.294,1.294,0,1,0,1.293-1.353A1.325,1.325,0,0,0,5.5,478.8Zm1.293-.451a.452.452,0,1,1-.431.451A.442.442,0,0,1,6.793,478.352Z" transform="translate(-1.191 -466.622)" fill="currentColor"/>
-                                       <path  data-name="Path 16789" d="M13.273,478.8a1.294,1.294,0,1,0,1.293-1.353A1.325,1.325,0,0,0,13.273,478.8Zm1.293-.451a.452.452,0,1,1-.431.451A.442.442,0,0,1,14.566,478.352Z" transform="translate(-2.875 -466.622)" fill="currentColor"/>
-                                    </g>
-                                 </g>
-                              </svg>
-                              <span class="header__account--btn__text"> My cart</span>   
-                              <span class="items__count">02</span> 
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
+                  
                   <div class="header__menu d-none header__sticky--block d-lg-block">
                      <nav class="header__menu--navigation">
                         <ul class="d-flex">
@@ -191,10 +127,10 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex justify-content-around" style="width:50%;margin-left:200px">
+                              <ul class="header__mega--menu d-flex justify-content-around" style="width:50%;margin-left:-23px">
                                  <li class="header__mega--menu__li">
                                     <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Fingure Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/fingure_ring">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bracelete</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Challa</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Pendent</a></li>
@@ -229,13 +165,13 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex" style="width:15%;margin-left:437px">
+                              <ul class="header__mega--menu d-flex" style="width:15%;margin-left:123px">
                                  <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu" style="width:100%">
                                        <li class="header__mega--sub__menu_li">
                                           <a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/bangales">Bangales</a>
                                        </li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Fingure Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/fingure_ring">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Chain</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Chain Pendents</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Neckales</a></li>
@@ -260,7 +196,7 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:715px">
+                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:410px">
                                  <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/payal_jodwe_mohotsav">Payal & Jodwe Mohotsav</a></li>
@@ -292,7 +228,7 @@
                            </a>
                         </li>
                         <li class="header__account--items header__account2--items">
-                           <a class="header__account--btn" href="my-account.html">
+                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/my_account">
                               <svg xmlns="http://www.w3.org/2000/svg"  width="26.51" height="23.443" viewBox="0 0 512 512">
                                  <path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
                                  <path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
@@ -328,12 +264,17 @@
             </div>
          </div>
          
-         <div class="header__bottom">
+         <div class="header__bottom" style="border:none;margin-top:-42px">
             <div class="container-fluid">
                <div class="header__bottom--inner position__relative d-none d-lg-flex justify-content-between align-items-center" style="margin:-8px">
                   <div class="header__menu">
-                     <nav class="header__menu--navigation">
-                        <ul class="d-flex">
+                     <nav class="header__menu--navigation d-flex justify-content-end align-items-center">
+                        <ul class="d-flex align-items-center">
+                           <li class="header__menu--items">
+                              <a class="header__menu--link" href="<?= base_url() ?>usercontroller/about">
+                                 <img src="https://www.shingavijewellers.com/image/logoblack4.png" style="height:56px;width:54px" alt="">
+                              </a>
+                           </li>
                            <li class="header__menu--items">
                               <a class="header__menu--link" href="<?= base_url() ?>usercontroller/">
                                  Home
@@ -346,11 +287,11 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu d-flex" style="width:195px">
+                              <ul class="header__mega--menu d-flex" style="width:195px;margin-left:113px">
                                  <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/bangales">Bangales</a></li>
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Fingure Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/fingure_ring">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Chain</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Chain Pendent</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-list.html">Nacklace</a></li>
@@ -373,7 +314,7 @@
                               <ul class="header__mega--menu d-flex justify-content-around" style="width:50%">
                                  <li class="header__mega--menu__li">
                                     <ul class="header__mega--sub__menu">
-                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop.html">Fingure Ring</a></li>
+                                       <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/fingure_ring">Fingure Ring</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-right-sidebar.html">Bracelete</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid.html">Challa</a></li>
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="shop-grid-list.html">Pendent</a></li>
@@ -416,7 +357,7 @@
                                     <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                  </svg>
                               </a>
-                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:413px">
+                              <ul class="header__mega--menu" style="height:auto;width:16%;margin-left:493px">
                                  <li class="header__mega--menu__li" style="width:100%">
                                     <ul class="header__mega--sub__menu">
                                        <li class="header__mega--sub__menu_li"><a class="header__mega--sub__menu--title" href="<?= base_url() ?>usercontroller/payal_jodwe_mohotsav">Payal & Jodwe Mohotsav</a></li>
@@ -444,13 +385,53 @@
                            </li>
                            
                         </ul>
+
+                        <ul class="d-flex" style="position:absolute;right:75px">
+                        <li class="header__account--items header__account2--items  header__account--search__items d-none d-lg-block">
+                           <a class="header__account--btn search__open--btn" href="javascript:void(0)" data-offcanvas>
+                              <svg class="header__search--button__svg" xmlns="http://www.w3.org/2000/svg" width="26.51" height="23.443" viewBox="0 0 512 512">
+                                 <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
+                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/>
+                              </svg>
+                              <span class="visually-hidden">Search</span>
+                           </a>
+                        </li>
+                        <li class="header__account--items header__account2--items">
+                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/my_account">
+                              <svg xmlns="http://www.w3.org/2000/svg"  width="26.51" height="23.443" viewBox="0 0 512 512">
+                                 <path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
+                                 <path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
+                              </svg>
+                              <span class="visually-hidden">My Account</span>
+                           </a>
+                        </li>
+                        <li class="header__account--items header__account2--items d-none d-lg-block">
+                           <a class="header__account--btn" href="<?= base_url() ?>usercontroller/wishlist">
+                              <svg  xmlns="http://www.w3.org/2000/svg" width="28.51" height="23.443" viewBox="0 0 512 512">
+                                 <path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+                              </svg>
+                              <span class="items__count  wishlist style2">02</span> 
+                           </a>
+                        </li>
+                        <li class="header__account--items header__account2--items">
+                           <a class="header__account--btn minicart__open--btn" href="javascript:void(0)" data-offcanvas>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="26.51" height="23.443" viewBox="0 0 14.706 13.534">
+                                 <g  transform="translate(0 0)">
+                                    <g >
+                                       <path  data-name="Path 16787" d="M4.738,472.271h7.814a.434.434,0,0,0,.414-.328l1.723-6.316a.466.466,0,0,0-.071-.4.424.424,0,0,0-.344-.179H3.745L3.437,463.6a.435.435,0,0,0-.421-.353H.431a.451.451,0,0,0,0,.9h2.24c.054.257,1.474,6.946,1.555,7.33a1.36,1.36,0,0,0-.779,1.242,1.326,1.326,0,0,0,1.293,1.354h7.812a.452.452,0,0,0,0-.9H4.74a.451.451,0,0,1,0-.9Zm8.966-6.317-1.477,5.414H5.085l-1.149-5.414Z" transform="translate(0 -463.248)" fill="currentColor"/>
+                                       <path  data-name="Path 16788" d="M5.5,478.8a1.294,1.294,0,1,0,1.293-1.353A1.325,1.325,0,0,0,5.5,478.8Zm1.293-.451a.452.452,0,1,1-.431.451A.442.442,0,0,1,6.793,478.352Z" transform="translate(-1.191 -466.622)" fill="currentColor"/>
+                                       <path  data-name="Path 16789" d="M13.273,478.8a1.294,1.294,0,1,0,1.293-1.353A1.325,1.325,0,0,0,13.273,478.8Zm1.293-.451a.452.452,0,1,1-.431.451A.442.442,0,0,1,14.566,478.352Z" transform="translate(-2.875 -466.622)" fill="currentColor"/>
+                                    </g>
+                                 </g>
+                              </svg>
+                              <span class="items__count style2">02</span> 
+                           </a>
+                        </li>
+                        </ul>
+                        
                      </nav>
                   </div>
-                  <p class="header__discount--text">
-                     <!-- <img class="header__discount--icon__img" src="<?= base_url() ?>public/user_assets/assets/img/icon/lamp.png" alt="lamp-img">  -->
-                     <i class="ri-lightbulb-fill " style="font-size:25px;color:#b32726"></i>
-                     Diwali Special Offers
-                  </p>
+                  
                </div>
             </div>
          </div>
@@ -475,7 +456,7 @@
                               <a href="<?= base_url() ?>usercontroller/bangales" class="offcanvas__sub_menu_item">Bangales</a>
                            </li>
                            <li class="offcanvas__sub_menu_li">
-                              <a href="#" class="offcanvas__sub_menu_item">Fingure Rings</a>
+                              <a href="<?= base_url() ?>usercontroller/fingure_ring" class="offcanvas__sub_menu_item">Fingure Rings</a>
                            </li>
                            <li class="offcanvas__sub_menu_li">
                               <a href="#" class="offcanvas__sub_menu_item">Chain</a>
@@ -499,10 +480,10 @@
                         </ul>
                      </li>
                      <li class="offcanvas__menu_li">
-                        <a class="offcanvas__menu_item" href="#">Silver</a>
+                        <a class="offcanvas__menu_item" href="<?= base_url() ?>usercontroller/silver">Silver</a>
                         <ul class="offcanvas__sub_menu">
                            <li class="offcanvas__sub_menu_li">
-                              <a href="#" class="offcanvas__sub_menu_item">Fingure Ring</a>
+                              <a href="<?= base_url() ?>usercontroller/fingure_ring" class="offcanvas__sub_menu_item">Fingure Ring</a>
                            </li>
                            <li class="offcanvas__sub_menu_li">
                               <a href="#" class="offcanvas__sub_menu_item">Bracelete</a>

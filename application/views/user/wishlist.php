@@ -84,13 +84,13 @@ defined("BASEPATH") or exit("no direct script access allowed");
                                             </div>
                                         </td>
                                         <td class="cart__table--body__list">
-                                            <span class="cart__price">£65.00</span>
+                                            <span class="cart__price">&#8377; 67,000</span>
                                         </td>
                                         <td class="cart__table--body__list text-center">
                                             <span class="in__stock text__secondary">in stock</span>
                                         </td>
                                         <td class="cart__table--body__list text-right">
-                                            <a class="wishlist__cart--btn primary__btn" href="cart.html">Add To Cart</a>
+                                            <a class="wishlist__cart--btn primary__btn" href="<?= base_url() ?>usercontroller/add_cart">Add To Cart</a>
                                         </td>
                                     </tr>
                                  

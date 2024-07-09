@@ -50,6 +50,12 @@ class Usercontroller extends CI_Controller{
     public function add_cart(){
         $this->ov("add_cart");
     }
+    public function fingure_ring(){
+        $this->ov("fingure_ring");
+    }
+    public function my_account(){
+        $this->ov("my_account");
+    }
     
 }
 ?>
